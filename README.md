@@ -1,5 +1,5 @@
 # Programming-practice-2
-#####File arrangements
+##### File arrangements
 ```
 Python 1 - Atharva Deshpande
 Python 2 - Shreyas Chavan
