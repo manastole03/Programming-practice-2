@@ -1,0 +1,7 @@
+n=int(input("enter a salary"))
+year=int(input("enter number of years"))
+if(year>5):
+    bonus=n+n*0.05
+    print(bonus)
+else:
+    print("sorry,you are not eligible for bonus")
