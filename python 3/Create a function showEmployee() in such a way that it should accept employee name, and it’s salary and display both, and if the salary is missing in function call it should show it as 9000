@@ -1,0 +1,12 @@
+def showemployee(name,**information):
+    print(name)
+    for i,j in information.items():
+        print(i,j)
+        
+str=input("enter the name:")
+a=int(input("enter the age:")) 
+b=int(input("enter the salary:")) 
+if(b==0):
+    print("salary is 9000")
+    
+showemployee(str,age=a,salary=b)
