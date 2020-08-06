@@ -1,0 +1,20 @@
+def maximum(a,b):
+    if(a>b):
+        print(a,"is greater.")
+        
+    else:
+        print(b,"is greater.")
+
+def minimum(a,b):
+    if(a<b):
+        print(a,"is lesser.")
+        
+    else:
+        print(b,"is lesser.")
+                
+        
+x=int(input("enter a number:"))       
+y=int(input("enter a number:"))       
+
+maximum(x,y)
+minimum(x,y)
