@@ -1,0 +1,17 @@
+//write a program for multiplication table
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i,j,k;
+    cout<<"enter the number : ";
+    cin>>j;
+    for(i=1;i<=10;i++)
+    {
+        k=j*i;
+        cout<<j<<" * "<<i<<" = "<<k<<"\n";
+    }
+
+    return 0;
+}
