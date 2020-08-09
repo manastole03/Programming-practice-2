@@ -1,0 +1,24 @@
+//sum of n natural numbers
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,i;
+    int s=0;
+   
+    cout << "Enter the number : \n";
+    cin>>a;
+    for(i=1;i<=a;i++)
+    {
+        s=s+i;
+       
+    }
+    cout<<"the sum of "<<a<<" natural number is "<<s;
+   
+   
+    return 0;
+}
+
