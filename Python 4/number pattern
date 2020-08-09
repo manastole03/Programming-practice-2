@@ -1,0 +1,22 @@
+//write a program for number pattern 
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i,j,k,n;
+    cout<<"enter the positive number : ";
+    cin>>j;
+    for(i=1;i<=j;i++)
+    {
+        for(k=1;k<=i;k++)
+        {
+            cout<<k;
+        }
+        cout<<"\n";
+
+    }
+
+    return 0;
+}
