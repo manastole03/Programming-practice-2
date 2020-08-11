@@ -1,0 +1,14 @@
+//celsius into fahrenheit
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i;
+    float j;
+    cout<<"enter the temperature in celsius= ";
+    cin>>i;
+    j=i*1.8+32;
+    cout<<"the temperature in fahrenheit is "<<j;
+}
