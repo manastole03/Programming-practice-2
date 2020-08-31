@@ -1,0 +1,14 @@
+def discount(price):
+    print("price is",price)
+    d=price *(0.2)
+    p=price - d
+    print("your discount is ",d, "on",price)
+    print("now your discounted price is",p)
+n = int (input("enter a number"))    
+while(n>0):    
+        x = float(input("enter price : "))
+        if(x<0.05):
+             print("sorry")
+        
+        else:
+             discount(x)
