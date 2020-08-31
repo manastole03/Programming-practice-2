@@ -1,0 +1,42 @@
+def password(s):
+    l, u, d, c = 0, 0, 0, 0
+
+    if (6 <= len(s) <= 12):
+        for i in s:
+
+            if (i.islower()):
+                l+=1
+
+            if (i.isupper()):
+                u+=1
+
+            if (i.isdigit()):
+                d+=1
+
+            if(i=='@'or i=='$' or i=='#'):
+                c+=1
+    if (l>=1 and u>=1 and c>=1 and d>=1 and l+c+u+d==len(s)):
+        print("Valid Password")
+    else:
+        print("Invalid Password")
+        print("Your password should contain atleast one lowercase alphabet(a,z).")
+        print("Your password should contain atleast one uppercase alphabet(A-Z).")
+        print("Your password should contain atleast one digit(0-9).")
+        print("Your password should contain atleast one charcter among [$#@].")
+        print("Minimum and maximum length of your password should be 6 and 12 respectively. Kindly check again.")
+
+
+s = input("Please enter your password:  ")
+password(s)
+
+while True:
+
+    a = input("Do you want to try again? (Yes or No). ")
+    if a =='Yes':
+        s = input("Please enter your password:  ")
+        password(s)
+    elif a =='No':
+        print("Thank You!!")
+        break
+    else:
+        print("Error! Enter 'Yes' or 'No'.")
