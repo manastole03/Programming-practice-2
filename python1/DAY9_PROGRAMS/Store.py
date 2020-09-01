@@ -59,7 +59,7 @@ def main():
                 break
             elif inp1 == '2':
                 customer.generate_bill()
-                main()
+                print("Thank You for shopping at Deshpande's Store.")
                 break
             elif inp1 == '3':
                 print("Thank You for shopping at Deshpande's Store.") 
