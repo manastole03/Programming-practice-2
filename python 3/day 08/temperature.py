@@ -6,7 +6,7 @@ class temperature:
     def convertintoF(self):
         print("farenhait scale: ",(self.c - 32) * (5/9))
     def convertintoC(self):
-        print("celcius scale: ",((9/5) *self.f + 32)
+        print("celcius scale: ",((9/5) *(self.f + 32))
 x  = float(input("enter a number in celcius : "))   
 y  = float(input("enter a number in farenhait : "))  
 
